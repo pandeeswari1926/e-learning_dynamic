@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoStyle {
+    width: 100px;
+    height: 50px;
+    padding-left: 50px;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+li {
+    display: flex;
+    position: relative;
+    padding: 10px 30px;
+    justify-content: space-between;
+}
+
+a {
+    display: flex;
+    color: rgb(43, 43, 43);
+    font-size: 17px;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-right: 5px;
+    transition: all 0.25 ease;
+}
+
+.iconStyle {
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.navTextWithIcon {
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+nav button {
+    padding: 12px;
+    width: 80px;
+    height: 40px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+nav button:hover {
+    background-color: #75c400;
+}
+
+.header {
+    width: 100%;
+    height: 500px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerImage {
+    width: 350px;
+    height: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    background-color: black;
+
+}
+
+.headerImage h1 {
+    color: white;
+}
+.headerImage button:hover{
+    background-color: #75c400;
+}
+
+.headerText {
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 200px;
+    padding-top: 20px;
+
+}
+
+.headerTextList {
+    font-size: 18px;
+    list-style-type: circle;
+    display: inline-block;
+
+}
+
+.headerTextChild {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.headerText button {
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.headerText button:hover {
+    background-color: #62a301;
+}
+
+.headerImage h1 {
+    text-align: center;
+}
+
+.headerImage input {
+    width: 330px;
+    height: 38px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5px;
+}
+
+.headerImage button {
+    width: 330px;
+    height: 38px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.FSD h1 {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.FSD p {
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.technologies {
+    width: 100%;
+    height: 300px;
+    background-color: greenyellow;
+}
+
+.technologies h1 {
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.technolgyImagesParent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.technolgyImages {
+    width: 290px;
+    height: 138px;
+    background-color: white;
+}
+
+.imageChild {
+    margin-top: 40px;
+    margin-left: 90px;
+    width: 90px;
+    height: 60px;
+    align-content: center;
+    justify-content: center;
+}
+
+.program {
+    width: 100%;
+    height: 600px;
+    background-color: #f8f9fa;
+}
+
+.programParent {
+    margin-left: 190px;
+}
+
+.program h1 {
+    margin-left: 190px;
+}
+
+.programChild {
+    width: 1500px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.programChild h3 {
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.programChild p {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 800px;
+    background-color: #2a2a2a;
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.footer ul {
+    color: white;
+    list-style: none;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.footerPractice ul {
+    margin-top: 20px;
+}
+
+.zenClass {
+    display: block;
+    text-align: justify;
+
+}
+
+.footerText {
+    color: white;
+    font-size: 21px;
+}
+
+.footerchild {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.footerBorder {
+    width: 1500px;
+    border-top: 0.5px solid white;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 0.5px solid white;
+    display: flex;
+}
+
+.footerLogo {
+    width: 100px;
+    height: 45px;
+    padding: 25px;
+}
+
+.footerBorderParent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footerBorder p {
+    color: white;
+    text-align: justify;
+}
+
+.socialMedia p {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.socialMediaImages {
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+}
+
+.referButton {
+    width: 200px;
+    height: 40px;
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 5px;
+    border: 0.5px solid white;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.referButton:hover {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+.socialMediaChild {
+    list-style: none;
+    margin-right: 50px;
+}
+
+
+.gplay {
+    width: 200px;
+    height: 50px;
+}

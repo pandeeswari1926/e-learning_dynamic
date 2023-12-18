@@ -1,0 +1,867 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoStyle {
+    width: 100px;
+    height: 50px;
+    padding-left: 50px;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+li {
+    display: flex;
+    position: relative;
+    padding: 10px 30px;
+    justify-content: space-between;
+}
+
+nav ul li:hover {
+    font-size: medium;
+    color: #75c400;
+}
+
+a {
+    display: flex;
+    color: rgb(43, 43, 43);
+    font-size: 17px;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-right: 5px;
+    transition: all 0.25 ease;
+}
+
+.iconStyle {
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.navTextWithIcon {
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+nav button {
+    padding: 12px;
+    width: 80px;
+    height: 40px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+nav button:hover {
+    background-color: #75c400;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+
+.mySlides {
+    width: 100%;
+    height: 500px;
+    background-color: #f8f9fa;
+
+}
+
+.headerImage {
+    margin-left: 1200px;
+    margin-top: -365px;
+
+}
+
+.headerText {
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 200px;
+    padding-top: 0px;
+    margin-top: -450px;
+
+}
+
+.headerText ul li {
+
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.headerTextChild {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.headerImage2 {
+    margin-left: 1150px;
+    margin-top: -375px;
+
+}
+
+.headerText button {
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.headerText button a {
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.headerText button:hover {
+    background-color: #75c400;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+/* .header {
+    width: 100%;
+    height: 500px;
+    background-color: #f8f9fa;
+}
+
+.headerImage {
+    margin-left: 1200px;
+    margin-top: -325px;
+
+}
+
+.headerText {
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 200px;
+    padding-top: 20px;
+
+}
+
+.headerTextChild {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.headerText button {
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.headerText button a {
+    margin-left: 50px;
+}
+
+.headerText button:hover {
+    background-color: #75c400;
+} */
+
+.imageWithText {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.imageWithTextHeadingSpan {
+    color: greenyellow;
+}
+
+.imageWithTextHeading {
+    font-family: sans-serif;
+}
+
+.imageWithTextParagraph {
+    font-family: sans-serif;
+    font-size: 17px;
+    opacity: 0.7;
+}
+
+.guviAbbrevation {
+    font-family: sans-serif;
+    font-size: 21px;
+}
+
+.guviText {
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.guviAbbrevationFirstLetter {
+    font-weight: bold;
+    text-decoration: underline;
+    color: greenyellow;
+}
+
+.imageWithTextContent {
+    align-self: center;
+    width: 500px;
+}
+
+.imageWithTextImageStyle {
+    width: 500px;
+    margin-right: 100px;
+}
+
+.ourAchievementsDetailedCard {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.ourAchievementsCard {
+    width: 1000px;
+    height: 400px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.ourAchievementsCardTextWithImage {
+    width: 500px;
+
+    align-content: space-between;
+}
+
+.ourAchievementsCardTextWithImage p {
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.ourAchievementsCardTextWithImage img {
+    width: 250px;
+    margin-left: 130px;
+}
+
+.ourAchievementsCardImage {
+    width: 400px;
+    height: 300px;
+    align-items: center;
+}
+
+.ourAchievementsCardBottomLine {
+    background-color: greenyellow;
+    height: 3px;
+    width: 1000px;
+}
+
+.Offers {
+    width: 100%;
+    height: 600px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.OffersImage {
+    width: 400px;
+    height: 400px;
+}
+
+.CoursesCard {
+    width: 340px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 15px;
+}
+
+#OffersIconStyle {
+    color: #adff2f;
+    font-size: 40px;
+}
+
+.CoursesCard a {
+    color: greenyellow;
+}
+
+#ChevronRight {
+    color: greenyellow;
+}
+
+.TextWithIcon {
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    width: max-content;
+
+}
+
+.TextWithIcon:hover {
+    color: #75c400;
+}
+
+.CoursesCardRow {
+    display: flex;
+}
+
+.CodeKata {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.CodeKataButtonRowParent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.CodeKataButtonRow {
+    width: 950px;
+    height: 50px;
+    background-color: #f8f9fa;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.CodeKataButtonRowParent.active {
+    color: #75c400;
+
+}
+
+.buttonStyle {
+    border: none;
+    /* font-size: 17px; */
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    /* margin-right: 20px; */
+}
+
+.codeKataImageRow {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.codeKataImageRow img {
+    width: 400px;
+    margin-right: 50px;
+}
+
+.codeKataImageRow p {
+    width: 500px;
+    font-size: 20px;
+
+}
+
+.exploreButton {
+    width: 200px;
+    height: 50px;
+    margin-left: 150px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.exploreButton:hover {
+    background-color: #75c400;
+    color: black;
+}
+
+.toggled {
+    color: #75c400 !important;
+    background-color: rgb(201, 254, 201);
+}
+
+/* .exploreMoreButton {
+    width: 200px;
+    height: 50px;
+    /* margin-left: 150px; */
+/* background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+.exploreMoreButton:hover {
+    background-color: #75c400;
+    color: black;
+}
+.ExploreMoreProgrambutton{
+    margin-top: 600px;
+    margin-left:-700px;
+} */
+.learners {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.learners h1 {
+    margin-bottom: 60px;
+}
+
+.LearnersImageParent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.LearnersImage {
+    width: 1500px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Corporates {
+    width: 100%;
+    height: 400px;
+    background-color: #f8f9fa;
+
+}
+
+.Corporates h1 {
+    padding-top: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Corporates p {
+    justify-content: center;
+    text-align: center;
+}
+
+#CorporatesIconStyle {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    background-color: greenyellow;
+    font-size: 40px;
+    color: white;
+    border-radius: 10px;
+}
+
+.corporateListParent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.corporateList {
+    width: 1700px;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.corporateList .listStyle::before {
+    position: absolute;
+    border-top: 1px dashed #2a2a2a;
+    width: 36%;
+    border-left: 1px dashed #2a2a2a;
+}
+
+.learnMoreButtonParent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 150px;
+}
+
+.learnMoreButton {
+    width: 200px;
+    height: 50px;
+    margin-left: 150px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.learnMoreButton:hover {
+    background-color: #75c400;
+    color: black;
+}
+
+.proud {
+    width: 100%;
+    height: 450px;
+    background-color: #f8f9fa;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.proud h1 {
+    text-align: center;
+}
+
+.proudOfParent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.proudParent {
+    display: flex;
+}
+
+.proudchild {
+    width: 280px;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 15px;
+}
+
+.proudchild h2 {
+    text-align: center;
+    color: greenyellow;
+}
+
+.proudchild p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.proudOfBottomParent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.proudchildBottomParent {
+    display: flex;
+}
+
+.proudchildBottom {
+    width: 400px;
+    height: 130px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 15px;
+}
+
+.proudchildBottom h1 {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-weight: 70px;
+    color: greenyellow;
+
+}
+
+.proudchildBottom p {
+    width: 250px;
+    padding: -10px;
+    margin-top: 50px;
+}
+
+.letterParent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.letter {
+    width: 1200px;
+    height: 200px;
+    background-color: #2a2a2a;
+    display: flex;
+}
+
+.letterText {
+    margin-top: 25px;
+}
+
+.letterText h2 {
+    color: white;
+}
+
+.letterText h2 span {
+    color: greenyellow;
+}
+
+.letterText p {
+    color: white;
+}
+
+.letterText .mail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.letterText .mail input {
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.letterText .mail button {
+    width: 200px;
+    height: 30px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: -70px;
+}
+
+.letterText .mail button:hover {
+    background-color: #75c400;
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    height: 800px;
+    background-color: #2a2a2a;
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.footer ul {
+    color: white;
+    list-style: none;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.footerPractice ul {
+    margin-top: 20px;
+}
+
+.zenClass {
+    display: block;
+    text-align: justify;
+
+}
+
+.footerText {
+    color: white;
+    font-size: 21px;
+}
+
+.footerchild {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.footerBorder {
+    width: 1500px;
+    border-top: 0.5px solid white;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 0.5px solid white;
+    display: flex;
+}
+
+.footerLogo {
+    width: 100px;
+    height: 45px;
+    padding: 25px;
+}
+
+.footerBorderParent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footerBorder p {
+    color: white;
+    text-align: justify;
+}
+
+.socialMedia p {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.socialMediaImages {
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+}
+
+.referButton {
+    width: 200px;
+    height: 40px;
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 5px;
+    border: 0.5px solid white;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.referButton:hover {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+.socialMediaChild {
+    list-style: none;
+    margin-right: 50px;
+}
+
+
+.gplay {
+    width: 200px;
+    height: 50px;
+}
+
+/* 
+ */
+
+@media(max-height:500px) {
+    #selectorGroup {
+        animation: slideUp500 1s forwards;
+    }
+}
+
+@media(max-height:750px) {
+    #selectorGroup {
+        animation: slideUp750 1s forwards;
+    }
+}
+
+
+@keyframes slideUp500 {
+    0% {
+        transform: translate3d(0, 500px, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slideUp750 {
+    0% {
+        transform: translate3d(0, 750px, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}

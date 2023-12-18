@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginImage {
+    width: 500px;
+    height: 400px;
+    padding: 150px 0 0 150px;
+    margin-left: 200px;
+}
+
+.logoStyle {
+    width: 100px;
+    height: 50px;
+    padding-left: 50px;
+    margin-left: 100px;
+    margin-top: -150px;
+}
+
+button {
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    border: 0.2px solid rgb(219, 219, 219);
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.buttonGoogle {
+    width: 35px;
+    height: 35px;
+    margin-left: 90px;
+    justify-content: space-evenly;
+
+}
+
+.Login {
+    display: flex;
+}
+
+.LoginText {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.LoginText h1 {
+    text-align: center;
+}
+
+.LoginText p {
+    margin-left: 60px;
+}
+
+.LoginText input {
+    width: 350px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(194, 194, 194);
+    padding: 5px;
+}
+
+.LoginText label {
+    margin-left: 40px;
+    font-weight: lighter;
+}
+
+.LoginText a {
+    margin-left: 280px;
+    text-decoration: none;
+}
+
+.LoginButton {
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+.LoginButton:hover {
+    background-color: #75c400;
+}
+
+.Border {
+    margin-left: 40px;
+    border: 0.5px solid rgb(202, 202, 202);
+}
+
+.LoginText .signup {
+    margin-left: 120px;
+    color: black;
+}
+#regerror{
+    margin-left: 45px;
+}
+#regerror1{
+    margin-left: 45px;
+}
